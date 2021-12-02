@@ -4,7 +4,7 @@
 
 # Kilian Vos WRL 2018
 
-#%% 1. Initial settings
+#%% Initial settings
 
 # load modules
 import os
@@ -19,6 +19,7 @@ import pandas as pd
 from datetime import datetime
 from coastsat import SDS_download, SDS_preprocess, SDS_shoreline, SDS_tools, SDS_transects
 
+# %% 1. Retreival of the images from Google Earth Engine
 # region of interest (longitude, latitude in WGS84)
 polygon = [[[151.301454, -33.700754],
             [151.311453, -33.702075],
@@ -122,7 +123,7 @@ for i in range(len(output['shorelines'])):
     sl = output['shorelines'][i]
     date = output['dates'][i]
     plt.plot(sl[:,0], sl[:,1], '.', label=date.strftime('%d-%m-%Y'))
-plt.legend()    
+plt.legend()
 
 #%% 4. Shoreline analysis
 
