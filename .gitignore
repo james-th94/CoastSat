@@ -1,3 +1,10 @@
+# Folders
+############
+**/[dD]ata/**
+**/[fF]es-2.9.3-Source/**
+**/[fF]es2014/**
+**/[eE][rR][aA]5 Surge/**
+**/[pP]lanet[sS]at/**
 *.pyc
 *.mat
 *.tif
