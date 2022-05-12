@@ -5,6 +5,10 @@
 **/[fF]es2014/**
 **/[eE][rR][aA]5 Surge/**
 **/[pP]lanet[sS]at/**
+
+# File types
+*.ipynb
+*.py
 *.pyc
 *.mat
 *.tif
